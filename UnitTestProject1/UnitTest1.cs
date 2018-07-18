@@ -9,6 +9,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
+            //note
             Assert.AreEqual(true, true);
         }
     }
