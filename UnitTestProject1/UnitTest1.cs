@@ -26,7 +26,7 @@ namespace UnitTestProject1
             string result = Strings.Concat(txt1, txt2);
 
             //Assert            
-            Assert.AreEqual("abcdef", result);
+            Assert.AreEqual("abcdef", result, "abc+def=abcdef");
         }
     }
 }
