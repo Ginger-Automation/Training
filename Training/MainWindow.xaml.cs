@@ -24,5 +24,11 @@ namespace Training
         {
             InitializeComponent();
         }
+
+        private void ConcatTwoString_Click(object sender, RoutedEventArgs e)
+        {
+            Output1.Content = Strings.Concat(Input1.Text, Input2.Text);
+        }
+
     }
 }
