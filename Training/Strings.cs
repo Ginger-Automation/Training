@@ -13,5 +13,15 @@ namespace Training
         {
             return "Not Correctly COncatenated";
         }
+
+        internal static void GetLengthOfString_Click()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static void ConcatThreeStrings()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

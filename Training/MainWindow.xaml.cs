@@ -30,5 +30,94 @@ namespace Training
             Output1.Content = Strings.Concat(Input1.Text, Input2.Text);
         }
 
+    
+
+        private void AddtwoNumbers_Click(object sender, RoutedEventArgs e)
+        {
+            MathsFunctions.AddTwoNumbers();
+        }
+
+        private void SubtractTwoNumbers_Click(object sender, RoutedEventArgs e)
+        {
+            MathsFunctions.SubrTractTwoNumbers();
+        }
+
+        private void MultiplyTwoNumbers_CLick(object sender, RoutedEventArgs e)
+        {
+            MathsFunctions.Multiply_TwoNumbers();
+        }
+
+        private void DivideTwoNumbers_Click(object sender, RoutedEventArgs e)
+        {
+            MathsFunctions.Divide_TwoNumbers();
+        }
+
+        private void AddThreeNumbers_Click(object sender, RoutedEventArgs e)
+        {
+            MathsFunctions.AddThreeNumbers();
+
+        }
+
+        private void SubtractThreeNumbers_Click(object sender, RoutedEventArgs e)
+        {
+            MathsFunctions.SubtractThreeNumbers();
+        }
+
+        private void MultiplyThreeNumbers_Click(object sender, RoutedEventArgs e)
+        {
+            MathsFunctions.MultiplyThreeNumbers();
+        }
+
+        private void DivideThreeNumbers_Click(object sender, RoutedEventArgs e)
+        {
+
+            MathsFunctions.DivideThreeNumbers();
+        }
+
+        private void AverageOfTwo_Click(object sender, RoutedEventArgs e)
+        {
+            MathsFunctions.AverageTwoNumbers();
+        }
+
+        private void AverageOfThree_Click(object sender, RoutedEventArgs e)
+        {
+            MathsFunctions.AverageThreeNumbers();
+        }
+
+        private void GetLengthOfString_Click(object sender, RoutedEventArgs e)
+        {
+            Strings.GetLengthOfString_Click();
+
+        }
+
+        private void GetSquareOfNumber_Click(object sender, RoutedEventArgs e)
+        {
+            MathsFunctions.GetSquare();
+        }
+
+        private void GetCubeOfNumber_Click(object sender, RoutedEventArgs e)
+        {
+            MathsFunctions.GetCUbe();
+        }
+
+        private void GetSquareRoot_Click(object sender, RoutedEventArgs e)
+        {
+            MathsFunctions.GetSquareRoot();
+        }
+
+        private void GetSCubeRoot_Click(object sender, RoutedEventArgs e)
+        {
+            MathsFunctions.GetCubeRoot();
+        }
+
+        private void ConcatThreeStrings_Click(object sender, RoutedEventArgs e)
+        {
+            Strings.ConcatThreeStrings();
+        }
+
+        private void Grid_Scroll(object sender, System.Windows.Controls.Primitives.ScrollEventArgs e)
+        {
+
+        }
     }
 }
