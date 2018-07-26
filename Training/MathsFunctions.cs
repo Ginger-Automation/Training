@@ -34,7 +34,7 @@ namespace Training
 
         internal static void AddThreeNumbers()
         {
-            itn x = Divide_TwoNumbers(15,3);
+            int x = Divide_TwoNumbers(15,3);
             // throw new NotImplementedException();
         }
 
