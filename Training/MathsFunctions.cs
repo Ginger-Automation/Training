@@ -23,9 +23,11 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        public static int Divide_TwoNumbers(int first,int second)
+        public static int Divide_TwoNumbers(int first,int second,int third)
         {
+
             return first / second;
+
         }
 
         internal static void AddThreeNumbers()
