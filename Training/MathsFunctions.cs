@@ -25,6 +25,7 @@ namespace Training
 
         internal static void Divide_TwoNumbers()
         {
+            //test commebnt
             throw new NotImplementedException();
         }
 
