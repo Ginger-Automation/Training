@@ -23,7 +23,7 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        internal static int Divide_TwoNumbers(int first,int second)
+        public static int Divide_TwoNumbers(int first,int second)
         {
             return first / second;
         }
