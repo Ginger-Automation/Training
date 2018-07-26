@@ -10,6 +10,7 @@ namespace Training
     {
         internal static void AddTwoNumbers()
         {
+            //fix me please 3
             throw new NotImplementedException();
         }
 
@@ -25,12 +26,16 @@ namespace Training
 
         public static int Divide_TwoNumbers(int first,int second)
         {
+
+
             return first / second;
+
         }
 
         internal static void AddThreeNumbers()
         {
-            throw new NotImplementedException();
+            int x = Divide_TwoNumbers(15,3);
+            // throw new NotImplementedException();
         }
 
         internal static void SubtractThreeNumbers()
