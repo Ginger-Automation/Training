@@ -49,7 +49,10 @@ namespace Training
 
         private void DivideTwoNumbers_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.Divide_TwoNumbers();
+
+            int first = Int32.Parse(Input51.Text);
+            int second = Int32.Parse(Input52.Text);
+            Output51.Content= MathsFunctions.Divide_TwoNumbers(first,second);
         }
 
         private void AddThreeNumbers_Click(object sender, RoutedEventArgs e)
