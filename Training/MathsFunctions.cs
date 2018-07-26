@@ -10,7 +10,7 @@ namespace Training
     {
         internal static void AddTwoNumbers()
         {
-            //fix me please
+            //fix me please 1
             throw new NotImplementedException();
         }
 
