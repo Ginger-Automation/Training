@@ -79,7 +79,7 @@ namespace Training
 
         private void AverageOfTwo_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.AverageTwoNumbers();
+            MathsFunctions.AverageTwoNumbers(4,5);
         }
 
         private void AverageOfThree_Click(object sender, RoutedEventArgs e)

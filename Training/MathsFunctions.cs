@@ -54,12 +54,9 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        internal static void AverageTwoNumbers()
+        public static int AverageTwoNumbers(int a, int b)
         {
-            var a = 5;
-            var b = 10;
-            var avg = a + b / 2;
-            throw new NotImplementedException();
+            return  (a + b) / 2;
         }
 
         internal static void AverageThreeNumbers()
