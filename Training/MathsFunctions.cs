@@ -50,7 +50,7 @@ namespace Training
 
         internal static void AverageTwoNumbers()
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException();            
         }
 
         internal static void AverageThreeNumbers()
