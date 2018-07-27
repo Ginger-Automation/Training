@@ -68,11 +68,11 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        internal static void GetCUbe()
+        public static double GetCUbe(int input)
         {
             double Cube;                        
-            Cube = Math.Ceiling(Math.Pow(3, (double)1 / 3));
-            Console.Write("Cube Root : " + Cube);
+            Cube = Math.Ceiling(Math.Pow(input, (double)1 / 3));
+            return Cube;
         }
 
         internal static void GetSquareRoot()

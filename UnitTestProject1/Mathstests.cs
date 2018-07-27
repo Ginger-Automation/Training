@@ -16,5 +16,12 @@ namespace UnitTestProject1
 
             Assert.AreEqual(5, expected); 
         }
+
+        [TestMethod]
+        public void CubeRoot()
+        {
+            double expected = MathsFunctions.GetCUbe(27);
+            Assert.AreEqual(3, expected);
+        }
     }
 }

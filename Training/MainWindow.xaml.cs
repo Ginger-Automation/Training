@@ -100,7 +100,7 @@ namespace Training
 
         private void GetCubeOfNumber_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.GetCUbe();
+            MathsFunctions.GetCUbe(27);
         }
 
         private void GetSquareRoot_Click(object sender, RoutedEventArgs e)
