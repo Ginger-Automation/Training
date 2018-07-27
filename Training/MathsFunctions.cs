@@ -50,11 +50,15 @@ namespace Training
 
         internal static void DivideThreeNumbers()
         {
+            //ToDo: Need to implement this function
             throw new NotImplementedException();
         }
 
         internal static void AverageTwoNumbers()
         {
+            var a = 5;
+            var b = 10;
+            var avg = a + b / 2;
             throw new NotImplementedException();
         }
 
