@@ -100,7 +100,7 @@ namespace Training
 
         private void GetCubeOfNumber_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.GetCUbe(27);
+            MathsFunctions.GetCUbe();
         }
 
         private void GetSquareRoot_Click(object sender, RoutedEventArgs e)
@@ -110,7 +110,14 @@ namespace Training
 
         private void GetSCubeRoot_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.GetCubeRoot();
+            try
+            {
+                Output171.Content = MathsFunctions.GetCubeRoot(Convert.ToDouble(Input171.Text));
+            }            
+            catch(Exception ex)
+            {
+                Output171.Content = "Error : " + ex.Message.ToString();
+            }
         }
 
         private void ConcatThreeStrings_Click(object sender, RoutedEventArgs e)

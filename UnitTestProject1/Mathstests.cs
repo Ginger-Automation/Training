@@ -20,7 +20,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void CubeRoot()
         {
-            double expected = MathsFunctions.GetCUbe(27);
+            double expected = MathsFunctions.GetCubeRoot(27);
             Assert.AreEqual(3, expected);
         }
     }
