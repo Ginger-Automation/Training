@@ -7,7 +7,21 @@ namespace UnitTestProject1
     [TestClass]
     public class MathsTests
     {
-       
+
+        [TestMethod]
+        public void SubstractTwoNumbersTest()
+        {
+            //Arrange
+            int a = 10;
+            int b = 5;
+            
+            //Act
+            int expected = MathsFunctions.SubrTractTwoNumbers(a,b);
+
+            //Assert
+            Assert.AreEqual(5, expected);
+        }
+
         [TestMethod]
         public void DivideByTwo()
         {

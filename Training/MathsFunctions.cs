@@ -14,9 +14,10 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        internal static void SubrTractTwoNumbers()
+        public static int SubrTractTwoNumbers(int first, int second)
         {
-            throw new NotImplementedException();
+            int result = first - second;
+            return result;
         }
 
         internal static void Multiply_TwoNumbers()
