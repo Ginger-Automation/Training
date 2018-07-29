@@ -30,5 +30,20 @@ namespace UnitTestProject1
 
             Assert.AreEqual(5, expected); 
         }
+
+
+        [TestMethod]
+        public void AddTwoNumbersTest()
+        {
+            //Arrange
+            int a = 10;
+            int b = 5;
+
+            //Act
+            int expected = MathsFunctions.AddTwoNumbers(a, b);
+
+            //Assert
+            Assert.AreEqual(15, expected);
+        }
     }
 }
