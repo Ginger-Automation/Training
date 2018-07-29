@@ -40,10 +40,10 @@ namespace UnitTestProject1
             int b = 5;
 
             //Act
-            int expected = MathsFunctions.AddTwoNumbers(a, b);
+            int total = MathsFunctions.AddTwoNumbers(a, b);
 
             //Assert
-            Assert.AreEqual(15, expected);
+            Assert.AreEqual(15, total);
         }
     }
 }
