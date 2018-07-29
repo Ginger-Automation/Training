@@ -23,5 +23,10 @@ namespace Training
         {
             throw new NotImplementedException();
         }
+
+        internal static void ConcatThreeStrings123()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
