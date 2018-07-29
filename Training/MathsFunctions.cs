@@ -44,9 +44,9 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        internal static void MultiplyThreeNumbers()
+        public static int MultiplyThreeNumbers(int first, int second, int third)
         {
-            throw new NotImplementedException();
+            return first * second * third;
         }
 
         internal static void DivideThreeNumbers()

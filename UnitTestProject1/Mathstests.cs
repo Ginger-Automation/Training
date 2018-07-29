@@ -30,5 +30,14 @@ namespace UnitTestProject1
 
             Assert.AreEqual(5, expected); 
         }
+
+        [TestMethod]
+        public void MultiplyThreeNumbersTest()
+        {
+            int result = MathsFunctions.MultiplyThreeNumbers(1, 2, 3);
+            Assert.AreEqual(6, result);
+
+        }
+
     }
 }
