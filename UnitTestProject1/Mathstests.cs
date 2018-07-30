@@ -34,7 +34,13 @@ namespace UnitTestProject1
         [TestMethod]
         public void CubeRoot()
         {
-            double expected = MathsFunctions.GetCubeRoot(27);
+            //Arrange
+            int input = 27;
+
+            //Act
+            double expected = MathsFunctions.GetCubeRoot(input);
+
+            //Assert
             Assert.AreEqual(3, expected);
         }
     }
