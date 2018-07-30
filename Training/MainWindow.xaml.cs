@@ -70,7 +70,7 @@ namespace Training
 
         private void MultiplyThreeNumbers_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.MultiplyThreeNumbers(1,2,3);
+            Output81.Content = MathsFunctions.MultiplyThreeNumbers(1, 2, 3);
         }
 
         private void DivideThreeNumbers_Click(object sender, RoutedEventArgs e)
