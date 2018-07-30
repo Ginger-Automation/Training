@@ -8,10 +8,9 @@ namespace Training
 {
     public class MathsFunctions
     {
-        internal static void AddTwoNumbers()
+        public static int AddTwoNumbers(int first, int second)
         {
-            //fix me please 3
-            throw new NotImplementedException();
+            return (first + second);
         }
 
         public static int SubrTractTwoNumbers(int first, int second)

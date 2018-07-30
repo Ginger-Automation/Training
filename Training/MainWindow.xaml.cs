@@ -34,7 +34,10 @@ namespace Training
 
         private void AddtwoNumbers_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.AddTwoNumbers();
+            int first = Int32.Parse(Input21.Text);
+            int second = Int32.Parse(Input22.Text);
+            ;
+            Output2.Content = MathsFunctions.AddTwoNumbers(first, second).ToString();
         }
 
         private void SubtractTwoNumbers_Click(object sender, RoutedEventArgs e)
