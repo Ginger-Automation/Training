@@ -53,7 +53,7 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        internal static int AverageTwoNumbers(int first, int second)
+        public static int AverageTwoNumbers(int first, int second)
         {
             return (first+second)/2;
         }
