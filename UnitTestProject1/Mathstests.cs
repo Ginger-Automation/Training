@@ -45,5 +45,19 @@ namespace UnitTestProject1
             //Assert
             Assert.AreEqual(15, total);
         }
+
+        [TestMethod]
+        public void AverageofTwoNumbers()
+        {
+            //Arrange
+            int a = 10;
+            int b = 2;
+
+            //Act
+            int expected = MathsFunctions.AverageTwoNumbers(a, b);
+
+            //Assert
+            Assert.AreEqual(6, expected);
+        }
     }
 }

@@ -84,7 +84,7 @@ namespace Training
 
         private void AverageOfTwo_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.AverageTwoNumbers();
+            Output101.Content= MathsFunctions.AverageTwoNumbers(Int32.Parse(Input101.Text), Int32.Parse(Input102.Text));
         }
 
         private void AverageOfThree_Click(object sender, RoutedEventArgs e)
