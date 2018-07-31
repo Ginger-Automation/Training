@@ -63,9 +63,9 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        internal static void GetSquare()
+        public static double GetSquare(int numberToSquare)
         {
-            throw new NotImplementedException();
+            return Math.Pow(numberToSquare, 2);
         }
 
         internal static void GetCUbe()

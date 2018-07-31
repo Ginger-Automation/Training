@@ -100,7 +100,10 @@ namespace Training
 
         private void GetSquareOfNumber_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.GetSquare();
+            int first = (Int32.TryParse(Input141.Text, out first)) ? first : 0;
+            int second = (Int32.TryParse(Input142.Text, out second)) ? second : 0;
+            int numberToSquare = first + second;
+            Output141.Content = MathsFunctions.GetSquare(numberToSquare);
         }
 
         private void GetCubeOfNumber_Click(object sender, RoutedEventArgs e)
