@@ -8,10 +8,9 @@ namespace Training
 {
     public class MathsFunctions
     {
-        internal static void AddTwoNumbers()
+        public static int AddTwoNumbers(int first, int second)
         {
-            //fix me please 3
-            throw new NotImplementedException();
+            return (first + second);
         }
 
         public static int SubrTractTwoNumbers(int first, int second)
@@ -54,9 +53,9 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        internal static void AverageTwoNumbers()
+        public static int AverageTwoNumbers(int first, int second)
         {
-            throw new NotImplementedException();            
+            return (first+second)/2;
         }
 
         internal static void AverageThreeNumbers()

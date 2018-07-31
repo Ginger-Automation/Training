@@ -31,17 +31,33 @@ namespace UnitTestProject1
             Assert.AreEqual(5, expected); 
         }
 
+
         [TestMethod]
-        public void CubeRoot()
+        public void AddTwoNumbersTest()
         {
             //Arrange
-            int input = 27;
+            int a = 10;
+            int b = 5;
 
             //Act
-            double expected = MathsFunctions.GetCubeRoot(input);
+            int total = MathsFunctions.AddTwoNumbers(a, b);
 
             //Assert
-            Assert.AreEqual(3, expected);
+            Assert.AreEqual(15, total);
+        }
+
+        [TestMethod]
+        public void AverageofTwoNumbers()
+        {
+            //Arrange
+            int a = 10;
+            int b = 2;
+
+            //Act
+            int expected = MathsFunctions.AverageTwoNumbers(a, b);
+
+            //Assert
+            Assert.AreEqual(6, expected);
         }
     }
 }
