@@ -87,7 +87,7 @@ namespace Training
 
         public static string GetEnvironmentName()
         {
-            string name = "Sandy";
+            string name = "Meni";
             return name;
         }
     }
