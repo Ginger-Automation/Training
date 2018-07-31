@@ -84,5 +84,11 @@ namespace Training
             Cube = Math.Ceiling(Math.Pow(input, (double)1 / 3));
             return Cube;
         }
+
+        public static string GetEnvironmentName()
+        {
+            string name = "Sudarshan";
+            return name;
+        }
     }
 }
