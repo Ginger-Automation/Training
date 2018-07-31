@@ -110,7 +110,8 @@ namespace Training
 
         private void GetSquareRoot_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.GetSquareRoot();
+            int number = Int32.Parse(Input161.Text);
+            Output161.Content= MathsFunctions.GetSquareRoot(number);
         }
 
         private void GetSCubeRoot_Click(object sender, RoutedEventArgs e)

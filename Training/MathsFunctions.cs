@@ -73,9 +73,9 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        internal static void GetSquareRoot()
+        internal static double  GetSquareRoot(int number)
         {
-            throw new NotImplementedException();
+            return Math.Sqrt(number);
         }
 
         internal static void GetCubeRoot()
