@@ -47,6 +47,20 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
+        public void AverageofTwoNumbers()
+        {
+            //Arrange
+            int a = 10;
+            int b = 2;
+
+            //Act
+            int expected = MathsFunctions.AverageTwoNumbers(a, b);
+
+            //Assert
+            Assert.AreEqual(6, expected);
+        }
+
+        [TestMethod]
         public void SquareRootOfNumber()
         {
             //Arrange
@@ -58,5 +72,7 @@ namespace UnitTestProject1
             //Assert
             Assert.AreEqual(6, squareRoot);
         }
+
+        
     }
 }

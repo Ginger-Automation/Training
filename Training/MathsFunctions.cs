@@ -53,9 +53,9 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        internal static void AverageTwoNumbers()
+        public static int AverageTwoNumbers(int first, int second)
         {
-            throw new NotImplementedException();
+            return (first+second)/2;
         }
 
         internal static void AverageThreeNumbers()
@@ -70,7 +70,7 @@ namespace Training
 
         internal static void GetCUbe()
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException();            
         }
 
         public static double  GetSquareRoot(int number)
@@ -78,9 +78,11 @@ namespace Training
             return Math.Sqrt(number);
         }
 
-        internal static void GetCubeRoot()
+        public static double GetCubeRoot(double input)
         {
-            throw new NotImplementedException();
+            double Cube;
+            Cube = Math.Ceiling(Math.Pow(input, (double)1 / 3));
+            return Cube;
         }
     }
 }
