@@ -59,5 +59,18 @@ namespace UnitTestProject1
             //Assert
             Assert.AreEqual(6, expected);
         }
+
+        [TestMethod]
+        public void GetSquareTest()
+        {
+            //Arrange
+            int a = 15;
+
+            //Act
+            double total = MathsFunctions.GetSquare(a);
+
+            //Assert
+            Assert.AreEqual(225, total);
+        }
     }
 }
