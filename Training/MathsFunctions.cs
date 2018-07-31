@@ -70,7 +70,7 @@ namespace Training
 
         internal static void GetCUbe()
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException();            
         }
 
         internal static void GetSquareRoot()
@@ -78,9 +78,11 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        internal static void GetCubeRoot()
+        public static double GetCubeRoot(double input)
         {
-            throw new NotImplementedException();
+            double Cube;
+            Cube = Math.Ceiling(Math.Pow(input, (double)1 / 3));
+            return Cube;
         }
     }
 }

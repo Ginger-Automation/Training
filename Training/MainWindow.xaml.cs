@@ -115,7 +115,14 @@ namespace Training
 
         private void GetSCubeRoot_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.GetCubeRoot();
+            try
+            {
+                Output171.Content = MathsFunctions.GetCubeRoot(Convert.ToDouble(Input171.Text));
+            }            
+            catch(Exception ex)
+            {
+                Output171.Content = "Error : " + ex.Message.ToString();
+            }
         }
 
         private void ConcatThreeStrings_Click(object sender, RoutedEventArgs e)
