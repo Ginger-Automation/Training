@@ -73,7 +73,7 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        internal static double  GetSquareRoot(int number)
+        public static double  GetSquareRoot(int number)
         {
             return Math.Sqrt(number);
         }

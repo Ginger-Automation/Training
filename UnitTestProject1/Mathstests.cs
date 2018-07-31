@@ -45,5 +45,18 @@ namespace UnitTestProject1
             //Assert
             Assert.AreEqual(15, total);
         }
+
+        [TestMethod]
+        public void SquareRootOfNumber()
+        {
+            //Arrange
+            int a = 36;
+
+            //Act
+            double squareRoot = MathsFunctions.GetSquareRoot(a);
+
+            //Assert
+            Assert.AreEqual(6, squareRoot);
+        }
     }
 }
