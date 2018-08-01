@@ -21,6 +21,7 @@ namespace Training
 
         internal static void Multiply_TwoNumbers()
         {
+            //Adding from GIT
             throw new NotImplementedException();
         }
 
