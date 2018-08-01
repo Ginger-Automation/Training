@@ -21,6 +21,8 @@ namespace Training
 
         public static int Multiply_TwoNumbers(int first, int second)
         {
+            //Adding from GIT
+            throw new NotImplementedException();
             return first*second;
         }
 
