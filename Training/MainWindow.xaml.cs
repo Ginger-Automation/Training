@@ -49,7 +49,9 @@ namespace Training
 
         private void MultiplyTwoNumbers_CLick(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.Multiply_TwoNumbers();
+            int firstNum = Int32.Parse(Input31.Text);
+            int secondNum = Int32.Parse(Input32.Text);
+            Output31.Content =MathsFunctions.Multiply_TwoNumbers(firstNum, secondNum);
         }
 
         private void DivideTwoNumbers_Click(object sender, RoutedEventArgs e)
@@ -133,6 +135,11 @@ namespace Training
         private void Grid_Scroll(object sender, System.Windows.Controls.Primitives.ScrollEventArgs e)
         {
 
+        }
+
+        private void ConcatTwoStrings_Click(object sender, RoutedEventArgs e)
+        {
+            Strings.Concat("","");
         }
     }
 }

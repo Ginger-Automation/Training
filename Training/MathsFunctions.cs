@@ -19,7 +19,7 @@ namespace Training
             return result;
         }
 
-        internal static int Multiply_TwoNumbers(int first, int second)
+        public static int Multiply_TwoNumbers(int first, int second)
         {
             return first*second;
         }
