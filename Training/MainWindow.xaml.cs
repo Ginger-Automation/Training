@@ -34,7 +34,10 @@ namespace Training
 
         private void AddtwoNumbers_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.AddTwoNumbers();
+            int first = Int32.Parse(Input21.Text);
+            int second = Int32.Parse(Input22.Text);
+            ;
+            Output2.Content = MathsFunctions.AddTwoNumbers(first, second).ToString();
         }
 
         private void SubtractTwoNumbers_Click(object sender, RoutedEventArgs e)
@@ -81,7 +84,7 @@ namespace Training
 
         private void AverageOfTwo_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.AverageTwoNumbers();
+            Output101.Content= MathsFunctions.AverageTwoNumbers(Int32.Parse(Input101.Text), Int32.Parse(Input102.Text));
         }
 
         private void AverageOfThree_Click(object sender, RoutedEventArgs e)
@@ -112,7 +115,14 @@ namespace Training
 
         private void GetSCubeRoot_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.GetCubeRoot();
+            try
+            {
+                Output171.Content = MathsFunctions.GetCubeRoot(Convert.ToDouble(Input171.Text));
+            }            
+            catch(Exception ex)
+            {
+                Output171.Content = "Error : " + ex.Message.ToString();
+            }
         }
 
         private void ConcatThreeStrings_Click(object sender, RoutedEventArgs e)
