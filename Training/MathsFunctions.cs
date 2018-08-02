@@ -15,7 +15,8 @@ namespace Training
 
         internal static void SubrTractTwoNumbers()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("");
+            return;
         }
 
         internal static void Multiply_TwoNumbers()
