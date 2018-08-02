@@ -25,9 +25,14 @@ namespace UnitTestProject1
         [TestMethod]
         public void DivideByTwo()
         {
-            int expected = MathsFunctions.Divide_TwoNumbers(10, 2);
+            //Arrange
+            int a = 10;
+            int b = 2;
 
+            //Act
+            int expected = MathsFunctions.Divide_TwoNumbers(a, b);
 
+            //Assert
             Assert.AreEqual(5, expected); 
         }
 
