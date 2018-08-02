@@ -63,7 +63,7 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        public static double GetSquare(int numberToSquare)
+        public static double GetSquare(double numberToSquare)
         {
             return Math.Pow(numberToSquare, 2);
         }
