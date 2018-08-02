@@ -12,6 +12,7 @@ namespace UnitTestProject1
         {
             //note
             Assert.AreEqual(true, true);
+            Assert.AreEqual(true, true);
         }
 
 
