@@ -94,7 +94,7 @@ namespace Training
 
         private void GetLengthOfString_Click(object sender, RoutedEventArgs e)
         {
-            Strings.GetLengthOfString_Click();
+            Strings.GetLengthOfString_Click("abc");
 
         }
 
