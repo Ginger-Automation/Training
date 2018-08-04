@@ -7,14 +7,7 @@ namespace UnitTestProject1
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
-            //note
-            Assert.AreEqual(true, true);
-            Assert.AreEqual(true, true);
-        }
-
+       
 
         [TestMethod]
         public void StringConcat()
