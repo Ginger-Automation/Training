@@ -48,9 +48,9 @@ namespace Training
             return first * second * third;
         }
 
-        internal static void DivideThreeNumbers()
+        internal static int DivideThreeNumbers(int first = 1, int second = 1, int third = 1 )
         {
-            throw new NotImplementedException();
+            return first / second / third;
         }
 
         public static int AverageTwoNumbers(int first, int second)
