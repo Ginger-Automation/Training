@@ -127,7 +127,7 @@ namespace Training
 
         private void ConcatThreeStrings_Click(object sender, RoutedEventArgs e)
         {
-            Strings.ConcatThreeStrings();
+            Output181.Content = Strings.ConcatThreeStrings(Input181.Text, Input182.Text, "_ThirdString");
         }
 
         private void Grid_Scroll(object sender, System.Windows.Controls.Primitives.ScrollEventArgs e)

@@ -19,9 +19,9 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        internal static void ConcatThreeStrings()
+        public static string ConcatThreeStrings(string text1, string text2, string thirdString)
         {
-            throw new NotImplementedException();
+            return string.Concat(text1, text2, thirdString);
         }
     }
 }
