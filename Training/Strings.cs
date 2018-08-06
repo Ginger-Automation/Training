@@ -14,9 +14,9 @@ namespace Training
             return string.Concat(text1, text2);
         }
 
-        internal static void GetLengthOfString_Click()
+        internal static int GetLengthOfString_Click(string str)
         {
-            throw new NotImplementedException();
+            return str.Length;
         }
 
         public static string ConcatThreeStrings(string text1, string text2, string thirdString)
