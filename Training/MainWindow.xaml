@@ -79,14 +79,14 @@
             <Label Content="MultiplyTwoNumbers" Grid.Column="0" Grid.Row="3"/>
             <TextBox Name="Input31" Grid.Column="1" Grid.Row="3"/>
             <TextBox Name="Input32" Grid.Column="2" Grid.Row="3"/>
-            <Button Content="Click" Name="SubtractTwoNumbers" Grid.Column="3" Grid.Row="3" Click="SubtractTwoNumbers_Click"/>
+            <Button Content="Click" Name="MultiplyTwoNumbers" Grid.Column="3" Grid.Row="3" Click="MultiplyTwoNumbers_CLick"/>
             <Label Name="Output31" Grid.Column="4" Grid.Row="3"/>
 
 
             <Label Content="Concat Two String" Grid.Column="0" Grid.Row="4"/>
             <TextBox Name="Input41" Grid.Column="1" Grid.Row="4"/>
             <TextBox Name="Input42" Grid.Column="2" Grid.Row="4"/>
-            <Button Content="Click" Name="MultiplyTwoNumbers" Grid.Column="3" Grid.Row="4" Click="MultiplyTwoNumbers_CLick"/>
+            <Button Content="Click" Name="ConcatTwoStrings" Grid.Column="3" Grid.Row="4" Click="ConcatTwoStrings_Click"/>
             <Label Name="Output41" Grid.Column="4" Grid.Row="4"/>
 
 

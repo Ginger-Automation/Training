@@ -19,9 +19,10 @@ namespace Training
             return result;
         }
 
-        internal static void Multiply_TwoNumbers()
+        public static int Multiply_TwoNumbers(int first, int second)
         {
-            throw new NotImplementedException();
+            //Adding from GIT           
+            return first*second;
         }
 
         public static int Divide_TwoNumbers(int first,int second)

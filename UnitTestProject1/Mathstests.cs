@@ -61,6 +61,20 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
+        public void MultiplyTest()
+        {
+            //Arrange
+            int num1 = 2;
+            int num2 = 5;
+
+            //Act
+            int result = MathsFunctions.Multiply_TwoNumbers(num1, num2);
+
+            //Assert            
+            Assert.AreEqual(10, result);
+        }
+
+        [TestMethod]
         public void MultiplyThreeNumbersTest()
         {
             //Arrange
