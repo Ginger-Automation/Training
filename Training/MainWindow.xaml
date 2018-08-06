@@ -43,6 +43,7 @@
                 <ColumnDefinition Width="100" />
                 <ColumnDefinition Width="100" />
                 <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
                 <ColumnDefinition Width="100*" />
 
             </Grid.ColumnDefinitions>
@@ -171,8 +172,9 @@
             <Label Content="ConcatThreeStrings" Grid.Column="0" Grid.Row="18"/>
             <TextBox Name="Input181" Grid.Column="1" Grid.Row="18"/>
             <TextBox Name="Input182" Grid.Column="2" Grid.Row="18"/>
-            <Button Content="Click" Name="ConcatThreeStrings" Grid.Column="3" Grid.Row="18" Click="ConcatThreeStrings_Click"/>
-            <Label Name="Output181" Grid.Column="4" Grid.Row="18"/>
+            <TextBox Name="Input1822" Grid.Column="3" Grid.Row="18"/>
+            <Button Content="Click" Name="ConcatThreeStrings" Grid.Column="4" Grid.Row="18" Click="ConcatThreeStrings_Click"/>
+            <Label Name="Output181" Grid.Column="5" Grid.Row="18"/>
 
 
 
