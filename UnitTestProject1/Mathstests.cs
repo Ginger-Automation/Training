@@ -61,18 +61,16 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
-        public void MultiplyThreeNumbersTest()
+        public void GetSquareTest()
         {
             //Arrange
-            int a = 1;
-            int b = 2;
-            int c = 3;
+            int a = 15;
 
             //Act
-            int result = MathsFunctions.MultiplyThreeNumbers(a, b, c);
+            double total = MathsFunctions.GetSquare(a);
 
             //Assert
-            Assert.AreEqual(6, result);
+            Assert.AreEqual(225, total);
         }
 
     }

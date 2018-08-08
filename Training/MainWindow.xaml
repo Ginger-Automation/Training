@@ -146,7 +146,7 @@
 
             <Label Content="GetSquareOfNumber" Grid.Column="0" Grid.Row="14"/>
             <TextBox Name="Input141" Grid.Column="1" Grid.Row="14"/>
-            <TextBox Name="Input142" Grid.Column="2" Grid.Row="14"/>
+            <TextBox Name="Input142" Grid.Column="2" Grid.Row="14" IsEnabled="False"/>
             <Button Content="Click" Name="GetSquareOfNumber" Grid.Column="3" Grid.Row="14" Click="GetSquareOfNumber_Click"/>
             <Label Name="Output141" Grid.Column="4" Grid.Row="14"/>
 
