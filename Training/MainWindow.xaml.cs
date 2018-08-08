@@ -73,7 +73,7 @@ namespace Training
 
         private void MultiplyThreeNumbers_Click(object sender, RoutedEventArgs e)
         {
-            MathsFunctions.MultiplyThreeNumbers();
+            Output81.Content = MathsFunctions.MultiplyThreeNumbers(1, 2, 3);
         }
 
         private void DivideThreeNumbers_Click(object sender, RoutedEventArgs e)
@@ -128,7 +128,7 @@ namespace Training
 
         private void ConcatThreeStrings_Click(object sender, RoutedEventArgs e)
         {
-            Strings.ConcatThreeStrings();
+            Output181.Content = Strings.ConcatThreeStrings(Input181.Text, Input182.Text, Input1822.Text);
         }
 
         private void Grid_Scroll(object sender, System.Windows.Controls.Primitives.ScrollEventArgs e)

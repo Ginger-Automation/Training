@@ -72,5 +72,6 @@ namespace UnitTestProject1
             //Assert
             Assert.AreEqual(225, total);
         }
+
     }
 }
