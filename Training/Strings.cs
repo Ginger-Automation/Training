@@ -12,7 +12,7 @@ namespace Training
         public static string Concat(string text1, string text2)
         {
             return string.Concat(text1, text2);
-            //Test Jaspreet
+            //Test Jaspreet123
         }
 
         internal static void GetLengthOfString_Click()
