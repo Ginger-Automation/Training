@@ -57,7 +57,7 @@ namespace Training
 
             int first = Int32.Parse(Input51.Text);
             int second = Int32.Parse(Input52.Text);
-            Output51.Content= MathsFunctions.Divide_TwoNumbers(first,second);
+            Output51.Content= MathsFunctions.Divide_TwoNumbers(first,second,3);
         }
 
         private void AddThreeNumbers_Click(object sender, RoutedEventArgs e)

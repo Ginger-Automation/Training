@@ -17,6 +17,8 @@ namespace Training
         {
             int result = first - second;
             return result;
+            Console.WriteLine("");
+            return;
         }
 
         internal static void Multiply_TwoNumbers()
@@ -24,7 +26,7 @@ namespace Training
             throw new NotImplementedException();
         }
 
-        public static int Divide_TwoNumbers(int first,int second)
+        public static int Divide_TwoNumbers(int first,int second,int third)
         {
 
 
