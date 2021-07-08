@@ -20,7 +20,7 @@ namespace Training
         }
 
         internal static void Multiply_TwoNumbers()
-        {
+        {//
             throw new NotImplementedException();
         }
 
